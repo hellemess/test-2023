@@ -1,0 +1,23 @@
+{
+  "name": "test-2023",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Тестовое задание",
+  "devDependencies": {
+    "browser-sync": "2.27.5",
+    "css-mqpacker": "7.0.0",
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-csso": "4.0.1",
+    "gulp-less": "5.0.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.1",
+    "gulp-rename": "2.0.0",
+    "webpack": "5.58.2",
+    "webpack-cli": "4.9.0"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp serve"
+  }
+}

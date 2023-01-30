@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Тестовое задание</title>
+  </head>
+  <body>
+    <input id="menu-switch" type="checkbox" name="menu-switch" />
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="logo">
+          <img src="img/logo.svg" alt="Логотип организации" />
+        </a>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a class="menu-link">Главная</a>
+          </li>
+          <li class="menu-item">
+            <input id="submenu-switch" type="checkbox" name="submenu-switch" />
+            <label for="submenu-switch">Основное меню</label>
+            <ul class="submenu-list">
+              <li class="submenu-item">
+                <a class="submenu-link" href="#">Заказать вёрстку</a>
+              </li>
+              <li class="submenu-item">
+                <a class="submenu-link" href="#">Отправить макет на проверку</a>
+              </li>
+              <li class="submenu-item">
+                <a class="submenu-link" href="#">Хочу работать у вас</a>
+              </li>
+              <li class="submenu-item">
+                <input id="inner-submenu-switch" type="checkbox" name="inner-submenu-switch" />
+                <label for="inner-submenu-switch">Есть предложение по работе с клиентами</label>
+                <ul class="inner-submenu-list">
+                  <li class="inner-submenu-item">
+                    <a class="inner-submenu-link" href="#">У меня есть оффер</a>
+                  </li>
+                  <li class="inner-submenu-item">
+                    <a class="inner-submenu-link" href="#">Сделать партнёром</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#">Наши сервисы</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="phone-link" href="tel:+13212223333">+1 (321) 222-33-33</a>
+      <label for="menu-switch"></label>
+    </header>
+  </body>
+</html>
